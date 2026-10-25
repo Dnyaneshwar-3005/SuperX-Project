@@ -1,6 +1,6 @@
 package com.corex;
 
-import com.corex.view.Ui;
+import com.corex.view.SplashScreen;
 
 import javafx.application.Application;
 
@@ -9,6 +9,6 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("Hello world!");
 
-        Application.launch(Ui.class, args);
+        Application.launch(SplashScreen.class, args);
     }
 }
