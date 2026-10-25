@@ -1,5 +1,5 @@
 package com.corex.view;
 
-public class Demo {
+public class SignupPage {
     
 }
