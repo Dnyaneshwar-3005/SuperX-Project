@@ -34,7 +34,7 @@ public final class SplashScreen extends Application {
     private static final Color NAVY = Color.web("#112F52");
     private static final Color LIGHT_NAVY = Color.web("#1D426A");
     private static final Color ACCENT = Color.web("#5B8CFF");
-    private static final Duration LOADING_TIME = Duration.seconds(2.5);
+    private static final Duration LOADING_TIME = Duration.seconds(1.5);
     public static Stage primaryStage;
 
     public SplashScreen() {
@@ -75,7 +75,7 @@ public final class SplashScreen extends Application {
     public void start(Stage stage) {
         primaryStage = stage;
         show(stage, () -> {
-            primaryStage.setScene(new LoginPage().getLoginScene());
+            primaryStage.setScene(new SignupPage().getSignupScene());
             primaryStage.setTitle("ScholarX - Login");
             primaryStage.centerOnScreen();
         });
